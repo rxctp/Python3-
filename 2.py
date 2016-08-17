@@ -17,7 +17,6 @@ def inputValue(title):
             break
         except ValueError:
             print('输入错误，请输入整数')
-            continue
 
 for i in titles:
     inputValue(i)
