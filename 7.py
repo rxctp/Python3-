@@ -47,6 +47,7 @@ def write_data(path,data_list):
                  "<td align='right'>{}</td>\n"
                  "<td align='right'>{}</td></tr>\n").format(*line)
         index += 1
+    html += '</table>'
     with open(path,'w') as f:
         f.write(html_text)
     
